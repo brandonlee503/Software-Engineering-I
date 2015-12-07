@@ -56,7 +56,7 @@
 <body background="1.jpg">
 
 <div id="p">
-	<form method="POST" id="paying" style="width: 1298px">
+	<form method="POST" id="paying" style="width: 1298px" action="payment.php">
 		<div id="paying_input">
 			<h1 class="auto-style1">&nbsp;PAYING FOR YOUR PARKING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			</h1>
@@ -66,7 +66,7 @@
 				<h3 class="auto-style3">&nbsp;&nbsp; Card Holder</h3>
 			</div>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<input type="card_holder" id="holder0" autocomplete="on" name="holder0" placeholder="Name" class="focus" style="width: 426px; height: 29px">
+			<input type="card_holder" id="holder0" autocomplete="on" name="number" placeholder="Number" class="focus" style="width: 426px; height: 29px">
 			<div id="number">
 				<p class="auto-style6"><span class="auto-style7"><strong>Card Number&nbsp;</strong></span><span class="auto-style4">&nbsp;&nbsp;
 					</span></p>
@@ -150,7 +150,7 @@
 				</strong>&nbsp; </p>
 			</div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<input id="regbtn" type="submit" disabled="disabled" value="Pay">
+			<input id="regbtn" type="submit" value="Pay">
 			<br><br></div>
 	</form>
 </div>
